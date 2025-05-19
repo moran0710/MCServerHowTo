@@ -17,7 +17,7 @@ var config = {
     ],
     footer: {
       message :"<a href='https://molab.top'>墨云实验室</a> | <a href='https://openmo.molab.top'>OpenMoPlugins开源插件计划</a> | <a href='https://github.com/vuejs/vitepress'>VitePress 强力驱动</a>",
-      copyright: '<a href="mcserverhowto.molab.top">MCServerHowTo</a> © 2025 by <a href="https://github.com/moran0710">Moran0710</a> is licensed under <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a><img src="https://mirrors.creativecommons.org/presskit/icons/cc.svg" style="max-width: 1em;max-height:1em;margin-left: .2em;"><img src="https://mirrors.creativecommons.org/presskit/icons/by.svg" style="max-width: 1em;max-height:1em;margin-left: .2em;"><img src="https://mirrors.creativecommons.org/presskit/icons/nc.svg" style="max-width: 1em;max-height:1em;margin-left: .2em;"><img src="https://mirrors.creativecommons.org/presskit/icons/sa.svg" style="max-width: 1em;max-height:1em;margin-left: .2em;">'
+      copyright: '<a href="mcserverhowto.molab.top">MCServerHowTo</a> © 2025 by <a href="https://github.com/moran0710">Moran0710</a> is licensed under <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a>'
     }
   }
 }
