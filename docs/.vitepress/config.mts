@@ -13,7 +13,7 @@ var config = {
     ],
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
+      { icon: 'github', link: 'https://github.com/moran0710/MCServerHowTo' }
     ],
     footer: {
       message :"<a href='https://molab.top'>墨云实验室</a> | <a href='https://openmo.molab.top'>OpenMoPlugins开源插件计划</a> | <a href='https://github.com/vuejs/vitepress'>VitePress 强力驱动</a>",
