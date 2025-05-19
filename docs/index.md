@@ -9,7 +9,7 @@ hero:
   actions:
     - theme: brand
       text: 快速开始
-      link: /前言/0.1.T 这是什么
+      link: /前言/0.1.T-这是什么
 
 ---
 

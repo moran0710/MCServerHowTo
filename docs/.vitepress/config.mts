@@ -4,13 +4,39 @@ import {withSidebar} from "vitepress-sidebar";
 // https://vitepress.dev/reference/site-config
 
 var config = {
+  sitemap: {
+    hostname: 'https://mcserverhowto.molab.top'
+  },
   title: "MCServerHowTo",
   description: "手把手、渐进式的MC开服教程！",
   themeConfig: {
+    search: {
+      provider: 'local'
+    },
+    //头上角要主题切换的文字 Appearance
+    darkModeSwitchLabel: "切换主题",
+    // 文章翻页
+    docFooter: {
+      prev: "上一篇", //Next page
+      next: "下一篇", //Previous page
+    },
+    //当前页面 On this page
+    outlineTitle: "本页内容",
+
+    // 返回顶部 Return to top
+    returnToTopLabel: "返回顶部",
+
+    // 菜单  Menu
+    sidebarMenuLabel: "菜单",
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: '主页', link: '/' },
     ],
+    notFound: {
+      title: "页面未找到",
+      quote: "这一页不存在哦，回到主页再看看吧",
+      linkText: "返回首页",
+    },
 
     socialLinks: [
       { icon: 'github', link: 'https://github.com/moran0710/MCServerHowTo' }
