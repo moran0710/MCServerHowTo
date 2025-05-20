@@ -4,12 +4,20 @@ import {withSidebar} from "vitepress-sidebar";
 // https://vitepress.dev/reference/site-config
 
 var config = {
+  markdown: {
+    image: {
+      lazyLoading: true
+    }
+  },
   sitemap: {
     hostname: 'https://mcserverhowto.molab.top'
   },
   title: "MCServerHowTo",
   description: "手把手、渐进式的MC开服教程！",
   themeConfig: {
+    markdown: {
+      lineNumbers: true
+    },
     search: {
       provider: 'local'
     },
